@@ -1,0 +1,9 @@
+[common]
+server_addr = <eg:your.url.or.ip.addr>
+server_port = <eg:8080>
+
+[minecraft]
+type = tcp
+local_ip = <eg:172.17.0.1>
+local_port = <eg:25565>
+remote_port = <eg:8081>
