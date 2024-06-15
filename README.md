@@ -54,7 +54,7 @@ docker pull ghcr.io/opdmc/1.19.2-nofleshwithinchest:latest
 ```
 
 ```shell
-docker run -d \
+docker run -it \
   --name=1.19.2-nofleshwithinchest \
   -p 127.0.0.1:80:25565/tcp \
   -v /path/to/store/data:/minecraft \
